@@ -6,7 +6,7 @@ import json
 # Initialize the FastAPI app
 app = FastAPI()
 
-# Load SBERT model
+# Load SBERT modeld
 model = SentenceTransformer('paraphrase-MiniLM-L6-v2')
 
 @app.post("/similarity")
